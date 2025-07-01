@@ -25,11 +25,17 @@ A simple and functional ToDo List application built using Node.js, Express.js, a
 ### 📂 Folder Structure
 ```
 📦 todo-app/
-├── models/
+├── modes/
 │   └── Todo.js         // Mongoose schema
 ├── routes/
-│   └── todoRoutes.js   // API route handlers
-├── database.js         // MongoDB connection logic
+│   └── todos.js   // API route handlers
+├── config/
+ └── database.js         // MongoDB connection logic
+├── controller/
+ └── createTodo.js
+└── deleteTodo.js
+ └── updateTodo.js
+└── getTodo.js
 ├── index.js            // Main entry point
 ├── .env                // Environment variables
 ├── package.json
