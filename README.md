@@ -44,7 +44,7 @@ A simple and functional ToDo List application built using Node.js, Express.js, a
 ### 📦 Installation & Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/skyeyeye/todo-app.git
 cd todo-app
 ```
 2. Install dependencies
